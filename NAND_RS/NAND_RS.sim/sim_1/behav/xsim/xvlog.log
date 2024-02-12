@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Documents/Term 6/Digital Systems Lab/NAND_RS/NAND_RS.srcs/sources_1/new/nand_rs.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module nand_rs
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Documents/Term 6/Digital Systems Lab/NAND_RS/NAND_RS.srcs/sim_1/new/nand_rs_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module nand_rs_tb

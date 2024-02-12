@@ -1,0 +1,7 @@
+set_property SRC_FILE_INFO {cfile:{D:/Documents/Term 6/Digital Systems Lab/Week_2/b3logic1/b3logic1.srcs/constrs_1/new/b3logic.xdc} rfile:../../../b3logic1.srcs/constrs_1/new/b3logic.xdc id:1} [current_design]
+set_property src_info {type:XDC file:1 line:12 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict { PACKAGE_PIN V17   IOSTANDARD LVCMOS33 } [get_ports b]
+set_property src_info {type:XDC file:1 line:13 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict { PACKAGE_PIN V16   IOSTANDARD LVCMOS33 } [get_ports a]
+set_property src_info {type:XDC file:1 line:31 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict { PACKAGE_PIN U16   IOSTANDARD LVCMOS33 } [get_ports y]

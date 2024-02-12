@@ -1,0 +1,16 @@
+`timescale 1ns/100ps;
+module e1_1006293_tb;
+    wire q, qb;
+    reg r,s;
+    
+e1_1006293 dut1(q,qb,r,s);
+
+initial begin
+    r = 1; s = 0;
+    #10 r = 0; s = 0;
+    #10 r = 0; s = 1;
+    #10 r = 0; s = 0;
+    #10 $stop;
+end
+    
+endmodule

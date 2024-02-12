@@ -1,0 +1,150 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/intelFPGA/20.1
+ve1_1006293
+Z0 !s110 1706179648
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+!i10b 1
+!s100 zO>z>dIjMG2=XcUl2X[Ho3
+IYnB1Oil<YW<S^WgI=C[IT3
+Z2 dD:/Documents/Term 6/Digital Systems Lab/Week1
+Z3 w1706179370
+Z4 8D:/Documents/Term 6/Digital Systems Lab/Week1/e1_1006293.v
+Z5 FD:/Documents/Term 6/Digital Systems Lab/Week1/e1_1006293.v
+!i122 13
+Z6 L0 2 8
+Z7 OV;L;2020.1;71
+31
+Z8 !s108 1706179648.000000
+Z9 !s107 D:/Documents/Term 6/Digital Systems Lab/Week1/e1_1006293.v|
+Z10 !s90 -reportprogress|300|-work|work|-stats=none|D:/Documents/Term 6/Digital Systems Lab/Week1/e1_1006293.v|
+!i113 1
+Z11 o-work work
+Z12 tCvgOpt 0
+ve1_1006293_tb
+!s110 1706179572
+R1
+r1
+!s85 0
+!i10b 1
+!s100 =gFEfRfVo=AhzlB7H8W:k2
+Ih:HdO_[MDo^JbZn7:?GS83
+R2
+w1706179564
+Z13 8D:/Documents/Term 6/Digital Systems Lab/Week1/e1_1006293_tb.v
+Z14 FD:/Documents/Term 6/Digital Systems Lab/Week1/e1_1006293_tb.v
+!i122 10
+Z15 L0 2 15
+R7
+31
+!s108 1706179572.000000
+Z16 !s107 D:/Documents/Term 6/Digital Systems Lab/Week1/e1_1006293_tb.v|
+Z17 !s90 -reportprogress|300|-work|work|-stats=none|D:/Documents/Term 6/Digital Systems Lab/Week1/e1_1006293_tb.v|
+!i113 1
+R11
+R12
+Xe1_1006293_tb_v_unit
+Z18 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+R0
+V0HAmUHb5WPJX?aR?ZHfY<1
+r1
+!s85 0
+!i10b 1
+!s100 Lea_=7o`W;n?;JN67c0240
+I0HAmUHb5WPJX?aR?ZHfY<1
+!i103 1
+S1
+R2
+Z19 w1706179644
+R13
+R14
+!i122 12
+Z20 L0 1 0
+R7
+31
+R8
+R16
+R17
+!i113 1
+R11
+R12
+Xe1_1006293_v_unit
+R18
+R0
+V8?B0Q2:n5`j]^b0ID_b>N3
+r1
+!s85 0
+!i10b 1
+!s100 gPJHD_OAfV9ZA^JE0D6YQ3
+I8?B0Q2:n5`j]^b0ID_b>N3
+!i103 1
+S1
+R2
+R3
+R4
+R5
+!i122 13
+R20
+R7
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+vnor_rs
+!s110 1706179226
+R1
+r1
+!s85 0
+!i10b 1
+!s100 Pn3ASzgk:`lJ0Oo1AFA1b1
+I]FkHZ2ekAdV3RA3h5EWh43
+R2
+w1706179066
+R4
+R5
+!i122 1
+R6
+R7
+31
+!s108 1706179225.000000
+R9
+R10
+!i113 1
+R11
+R12
+vnor_rs_tb
+R0
+R1
+r1
+!s85 0
+!i10b 1
+!s100 k];1b>V=Wa[gAWkJFO9EL3
+IzjBGhkN7X?7_0WgF:gfX;2
+R2
+R19
+R13
+R14
+!i122 12
+R15
+R7
+31
+R8
+R16
+R17
+!i113 1
+R11
+R12

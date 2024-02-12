@@ -1,0 +1,5 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Documents/Term 6/Digital Systems Lab/NOR/NOR.srcs/sources_1/new/nor_rs.v" into library xil_defaultlib
+WARNING: [VRFC 10-2502] extra semicolon in $unit (global) scope [D:/Documents/Term 6/Digital Systems Lab/NOR/NOR.srcs/sources_1/new/nor_rs.v:1]
+INFO: [VRFC 10-311] analyzing module nor_rs
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Documents/Term 6/Digital Systems Lab/NOR/NOR.srcs/sim_1/new/nor_rs_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module nor_rs_tb

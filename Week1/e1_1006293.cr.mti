@@ -1,0 +1,21 @@
+{D:/Documents/Term 6/Digital Systems Lab/Week1/e1_1006293.v} {2 {vlog -work work -stats=none {D:/Documents/Term 6/Digital Systems Lab/Week1/e1_1006293.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+** Warning: D:/Documents/Term 6/Digital Systems Lab/Week1/e1_1006293.v(1): (vlog-2283) Extra semicolon in $unit (global) scope.
+** Warning: D:/Documents/Term 6/Digital Systems Lab/Week1/e1_1006293.v(9): (vlog-2284) Empty $unit scope found.
+-- Compiling package e1_1006293_v_unit
+-- Compiling module e1_1006293
+
+Top level modules:
+	e1_1006293
+
+} {} {}} {D:/Documents/Term 6/Digital Systems Lab/Week1/e1_1006293_tb.v} {2 {vlog -work work -stats=none {D:/Documents/Term 6/Digital Systems Lab/Week1/e1_1006293_tb.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+** Warning: D:/Documents/Term 6/Digital Systems Lab/Week1/e1_1006293_tb.v(1): (vlog-2283) Extra semicolon in $unit (global) scope.
+** Warning: D:/Documents/Term 6/Digital Systems Lab/Week1/e1_1006293_tb.v(16): (vlog-2284) Empty $unit scope found.
+-- Compiling package e1_1006293_tb_v_unit
+-- Compiling module nor_rs_tb
+
+Top level modules:
+	nor_rs_tb
+
+} {} {}}
