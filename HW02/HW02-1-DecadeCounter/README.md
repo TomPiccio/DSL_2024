@@ -5,7 +5,7 @@
 The Decade Counter counts the number of positive edges of the clock after `reset` has been turned to `0` using the `count` variable with a maximum of `4b1001`. After counting to `4b1001`, `ten` will turn to 1.
 
 ## Simulation Waveform
-![Figure 1: Testbench Results](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+![Figure 1: Testbench Results](https://github.com/TomPiccio/DSL_2024/blob/main/HW02/HW02-1-DecadeCounter/DecadeCounter_Results.png)
 
 ## Design Source
 
