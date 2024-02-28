@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Documents/Term 6/Digital Systems Lab/DSL_2024/Stop Watch/StopWatchBasys3/StopWatchBasys3.srcs/sources_1/new/stopwatch.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top_module
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Documents/Term 6/Digital Systems Lab/DSL_2024/Stop Watch/StopWatchBasys3/StopWatchBasys3.srcs/sim_1/new/stopwatch_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top_module_tb
