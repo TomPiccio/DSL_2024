@@ -2,7 +2,7 @@
 
 ## Description
 
-The multiplexer accepts multiple inputs (`A`, `B`, `C`, and `D`) and will output `X` a selector input of `SEL`. (SEL = `A`: `00`, `B` : `01`, `C` : `10, `D` : `11`)
+The multiplexer accepts multiple inputs (`A`, `B`, `C`, and `D`) and will output `X` a selector input of `SEL`. (SEL = `A`: `00`, `B` : `01`, `C` : `10`, `D` : `11`)
 
 ## Simulation Waveform
 ![Figure 1: Testbench Results](https://github.com/TomPiccio/DSL_2024/blob/main/HW02/HW02-2-Multiplexer/Multiplexer_Results.png)
