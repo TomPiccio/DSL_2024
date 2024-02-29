@@ -12,18 +12,19 @@ decade_counter decade_counter_u0(
     .ten(ten)
 );
 
-always begin
-    #10 clk <= 1;
-    #10 clk <= 0;
+initial begin
+    repeat(10)
+    begin
+        #1 clk <= 1;
+        #1 clk <= 0;
+    end
 end
 
 initial begin
     #0 clk <=0;
     #0 rst <= 1;
-    #30 rst <= 0;
-    #220 rst <= 1;
-    #30 rst <= 0;
-    #100 $stop;
+    #1 rst <= 0;
+    #19 $stop;
 end
 
 endmodule
