@@ -1,4 +1,4 @@
-INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Documents/Term 6/Digital Systems Lab/DSL_2024/HW01/HW01-1-DecadeCounter/decade_counter.srcs/sources_1/new/q1_1006293.v" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Documents/Term 6/Digital Systems Lab/DSL_2024/HW02/HW02-1-DecadeCounter/decade_counter.srcs/sources_1/new/q1_1006293.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module decade_counter
-INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Documents/Term 6/Digital Systems Lab/DSL_2024/HW01/HW01-1-DecadeCounter/decade_counter.srcs/sim_1/new/q1_tb_1006293.v" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Documents/Term 6/Digital Systems Lab/DSL_2024/HW02/HW02-1-DecadeCounter/decade_counter.srcs/sim_1/new/q1_tb_1006293.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module decade_counter_tb

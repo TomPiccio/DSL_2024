@@ -2,7 +2,7 @@
 
 ## Description
 
-The Decade Counter counts the number of positive edges of the clock after `reset` has been turned to `0` using the `count` variable with a maximum of `4b1001`. After counting to `4b1001`, `ten` will turn to 1.
+The Decade Counter counts the number of positive edges of the clock after `reset` has been turned to `0` using the `count` variable with a maximum of `4b1001`. After counting to `4b1001`, `ten` will turn to 1 and go back to 0 after the overflow.
 
 ## Simulation Waveform
 ![Figure 1: Testbench Results](https://github.com/TomPiccio/DSL_2024/blob/main/HW02/HW02-1-DecadeCounter/DecadeCounter_Results.png)
@@ -24,24 +24,23 @@ assign count = counter;
 assign ten = ten_counter;
 always @(posedge clk)
 begin
-    if (!rst)
+    if(rst)
+    begin
+        counter <= 4'b0000;
+        ten_counter <= 0;
+    end
+    else
     begin
         if (counter < 4'b1001)
+        begin
             counter <= counter + 4'b0001;
+            ten_counter <= 0;
+        end
         else
         begin
             counter <= 4'b0000;
             ten_counter <= 1;
         end
-    end
-end
-
-always @*
-begin
-    if(rst)
-    begin
-        counter <= 4'b0000;
-        ten_counter <= 0;
     end
 end
 
@@ -65,19 +64,18 @@ decade_counter decade_counter_u0(
 );
 
 initial begin
-    repeat(10)
+    #0 clk <=0;
+    #0 rst <= 1;
+    #1 clk <= 1;
+    #1 clk <= 0;
+    #0 rst <= 0;
+    repeat(13)
     begin
         #1 clk <= 1;
         #1 clk <= 0;
     end
+    #1 clk <= 1;
+    #0 $stop;
 end
 
-initial begin
-    #0 clk <=0;
-    #0 rst <= 1;
-    #1 rst <= 0;
-    #19 $stop;
-end
-
-endmodule
-```
+endmodule```

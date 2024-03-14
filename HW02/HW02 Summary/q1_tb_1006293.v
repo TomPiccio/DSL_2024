@@ -13,18 +13,18 @@ decade_counter decade_counter_u0(
 );
 
 initial begin
-    repeat(10)
+    #0 clk <=0;
+    #0 rst <= 1;
+    #1 clk <= 1;
+    #1 clk <= 0;
+    #0 rst <= 0;
+    repeat(13)
     begin
         #1 clk <= 1;
         #1 clk <= 0;
     end
-end
-
-initial begin
-    #0 clk <=0;
-    #0 rst <= 1;
-    #1 rst <= 0;
-    #19 $stop;
+    #1 clk <= 1;
+    #0 $stop;
 end
 
 endmodule

@@ -7,8 +7,8 @@ Starting static elaboration
 Pass Through NonSizing Optimizer
 Completed static elaboration
 Starting simulation data flow analysis
-WARNING: [XSIM 43-4100] "D:/Documents/Term 6/Digital Systems Lab/DSL_2024/HW01/HW01-1-DecadeCounter/decade_counter.sim/sim_1/behav/xsim/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
-WARNING: [XSIM 43-4100] "D:/Documents/Term 6/Digital Systems Lab/DSL_2024/HW01/HW01-1-DecadeCounter/decade_counter.sim/sim_1/behav/xsim/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "D:/Documents/Term 6/Digital Systems Lab/DSL_2024/HW02/HW02-1-DecadeCounter/decade_counter.sim/sim_1/behav/xsim/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "D:/Documents/Term 6/Digital Systems Lab/DSL_2024/HW02/HW02-1-DecadeCounter/decade_counter.sim/sim_1/behav/xsim/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
 Completed simulation data flow analysis
 Time Resolution for simulation is 1ps
 Compiling module xil_defaultlib.decade_counter
