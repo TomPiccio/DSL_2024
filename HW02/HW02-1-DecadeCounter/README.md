@@ -22,7 +22,7 @@ reg [3:0]counter  = 4'b0000;
 reg ten_counter = 0;
 assign count = counter;
 assign ten = ten_counter;
-always @(posedge clk)
+always @(posedge rst, posedge clk)
 begin
     if(rst)
     begin
@@ -74,8 +74,10 @@ initial begin
         #1 clk <= 1;
         #1 clk <= 0;
     end
+    #0 rst <= 1;
     #1 clk <= 1;
     #0 $stop;
 end
 
-endmodule```
+endmodule
+```

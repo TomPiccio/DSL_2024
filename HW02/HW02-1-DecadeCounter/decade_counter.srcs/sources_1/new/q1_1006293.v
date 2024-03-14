@@ -10,7 +10,7 @@ reg [3:0]counter  = 4'b0000;
 reg ten_counter = 0;
 assign count = counter;
 assign ten = ten_counter;
-always @(posedge clk)
+always @(posedge rst, posedge clk)
 begin
     if(rst)
     begin

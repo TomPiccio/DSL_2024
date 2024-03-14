@@ -23,6 +23,7 @@ initial begin
         #1 clk <= 1;
         #1 clk <= 0;
     end
+    #0 rst <= 1;
     #1 clk <= 1;
     #0 $stop;
 end
